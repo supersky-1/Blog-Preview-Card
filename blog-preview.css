@@ -118,3 +118,40 @@ button{
     object-fit: cover;
     display: block;
 }
+@media (max-width: 400px) {
+    .card {
+        width: 85vw;
+        height: auto;
+        min-height: 500px;
+        padding: 18px;
+        margin: 16px;
+    }
+
+    .thumbnail img {
+        height: 180px;
+    }
+
+    .label,
+    .article {
+        margin-left: 0;
+    }
+
+    p {
+        min-width: 0;
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    footer {
+        align-items: center;
+        gap: 10px;
+    }
+
+    footer h3 {
+        font-size: 1rem;
+    }
+}
